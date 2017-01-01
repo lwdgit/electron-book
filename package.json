@@ -1,0 +1,35 @@
+{
+  "name": "electron-book",
+  "version": "0.0.0",
+  "description": "electron book",
+  "devDependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-search-plus": "^0.0.7",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "start": "npm run watch",
+    "build": "gitbook build . book-zh&&gitbook build . book-en",
+    "watch": "gitbook serve . book-zh",
+    "gitbook": "gitbook"
+  },
+  "pre-commit": {
+    "run": "build",
+    "silent": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianalfoni/react-webpack-cookbook.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianalfoni/react-webpack-cookbook/issues"
+  },
+  "homepage": "https://github.com/christianalfoni/react-webpack-cookbook"
+}
