@@ -10,12 +10,13 @@
   },
   "scripts": {
     "start": "npm run watch",
-    "build": "gitbook build . book-zh&&gitbook build . book-en",
-    "watch": "gitbook serve . book-zh",
+    "build": "gitbook build . book/zh-CN&&gitbook build . book/en-US",
+    "watch": "gitbook serve . book/zh-CN",
+    "commit": "git add -A",
     "gitbook": "gitbook"
   },
   "pre-commit": {
-    "run": "build",
+    "run": ["build", "commit"],
     "silent": true
   },
   "repository": {

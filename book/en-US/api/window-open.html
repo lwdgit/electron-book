@@ -1,0 +1,1278 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>window.open Function · test search plus plugin</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="webview-tag.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    FAQ
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../faq.html">
+            
+                <a href="../faq.html">
+            
+                    
+                    Electron FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Guides
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../glossary.html">
+            
+                <a href="../glossary.html">
+            
+                    
+                    Glossary of Terms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../tutorial/supported-platforms.html">
+            
+                <a href="../tutorial/supported-platforms.html">
+            
+                    
+                    Supported Platforms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../tutorial/security.html">
+            
+                <a href="../tutorial/security.html">
+            
+                    
+                    Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../tutorial/electron-versioning.html">
+            
+                <a href="../tutorial/electron-versioning.html">
+            
+                    
+                    Electron Versioning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../tutorial/application-distribution.html">
+            
+                <a href="../tutorial/application-distribution.html">
+            
+                    
+                    Application Distribution
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../tutorial/mac-app-store-submission-guide.html">
+            
+                <a href="../tutorial/mac-app-store-submission-guide.html">
+            
+                    
+                    Mac App Store Submission Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../tutorial/windows-store-guide.html">
+            
+                <a href="../tutorial/windows-store-guide.html">
+            
+                    
+                    Windows Store Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../tutorial/application-packaging.html">
+            
+                <a href="../tutorial/application-packaging.html">
+            
+                    
+                    Application Packaging
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../tutorial/using-native-node-modules.html">
+            
+                <a href="../tutorial/using-native-node-modules.html">
+            
+                    
+                    Using Native Node Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../tutorial/debugging-main-process.html">
+            
+                <a href="../tutorial/debugging-main-process.html">
+            
+                    
+                    Debugging Main Process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../tutorial/using-selenium-and-webdriver.html">
+            
+                <a href="../tutorial/using-selenium-and-webdriver.html">
+            
+                    
+                    Using Selenium and WebDriver
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../tutorial/devtools-extension.html">
+            
+                <a href="../tutorial/devtools-extension.html">
+            
+                    
+                    DevTools Extension
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../tutorial/using-pepper-flash-plugin.html">
+            
+                <a href="../tutorial/using-pepper-flash-plugin.html">
+            
+                    
+                    Using Pepper Flash Plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../tutorial/using-widevine-cdm-plugin.html">
+            
+                <a href="../tutorial/using-widevine-cdm-plugin.html">
+            
+                    
+                    Using Widevine CDM Plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../tutorial/testing-on-headless-ci.html">
+            
+                <a href="../tutorial/testing-on-headless-ci.html">
+            
+                    
+                    Testing on Headless CI Systems (Travis, Jenkins)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../tutorial/offscreen-rendering.html">
+            
+                <a href="../tutorial/offscreen-rendering.html">
+            
+                    
+                    Offscreen Rendering
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Tutorials
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../tutorial/quick-start.html">
+            
+                <a href="../tutorial/quick-start.html">
+            
+                    
+                    Quick Start
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../tutorial/desktop-environment-integration.html">
+            
+                <a href="../tutorial/desktop-environment-integration.html">
+            
+                    
+                    Desktop Environment Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../tutorial/online-offline-events.html">
+            
+                <a href="../tutorial/online-offline-events.html">
+            
+                    
+                    Online/Offline Event Detection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../tutorial/repl.html">
+            
+                <a href="../tutorial/repl.html">
+            
+                    
+                    REPL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="environment-variables.html">
+            
+                <a href="environment-variables.html">
+            
+                    
+                    Environment Variables
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="synopsis.html">
+            
+                <a href="synopsis.html">
+            
+                    
+                    Synopsis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="process.html">
+            
+                <a href="process.html">
+            
+                    
+                    Process Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="chrome-command-line-switches.html">
+            
+                <a href="chrome-command-line-switches.html">
+            
+                    
+                    Supported Chrome Command Line Switches
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="environment-variables.html">
+            
+                <a href="environment-variables.html">
+            
+                    
+                    Environment Variables
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" >
+            
+                <span>
+            
+                    
+                    Custom DOM Elements:
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="file-object.html">
+            
+                <a href="file-object.html">
+            
+                    
+                    File Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5.2" data-path="webview-tag.html">
+            
+                <a href="webview-tag.html">
+            
+                    
+                    <webview> Tag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.5.3" data-path="window-open.html">
+            
+                <a href="window-open.html">
+            
+                    
+                    window.open Function
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" >
+            
+                <span>
+            
+                    
+                    Modules for the Main Process:
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="app.html">
+            
+                <a href="app.html">
+            
+                    
+                    app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="auto-updater.html">
+            
+                <a href="auto-updater.html">
+            
+                    
+                    autoUpdater
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.3" data-path="browser-window.html">
+            
+                <a href="browser-window.html">
+            
+                    
+                    BrowserWindow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.4" data-path="content-tracing.html">
+            
+                <a href="content-tracing.html">
+            
+                    
+                    contentTracing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.5" data-path="dialog.html">
+            
+                <a href="dialog.html">
+            
+                    
+                    dialog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.6" data-path="global-shortcut.html">
+            
+                <a href="global-shortcut.html">
+            
+                    
+                    globalShortcut
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.7" data-path="ipc-main.html">
+            
+                <a href="ipc-main.html">
+            
+                    
+                    ipcMain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.8" data-path="menu.html">
+            
+                <a href="menu.html">
+            
+                    
+                    Menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.9" data-path="menu-item.html">
+            
+                <a href="menu-item.html">
+            
+                    
+                    MenuItem
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.10" data-path="net.html">
+            
+                <a href="net.html">
+            
+                    
+                    net
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.11" data-path="power-monitor.html">
+            
+                <a href="power-monitor.html">
+            
+                    
+                    powerMonitor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.12" data-path="power-save-blocker.html">
+            
+                <a href="power-save-blocker.html">
+            
+                    
+                    powerSaveBlocker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.13" data-path="protocol.html">
+            
+                <a href="protocol.html">
+            
+                    
+                    protocol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.14" data-path="session.html">
+            
+                <a href="session.html">
+            
+                    
+                    session
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.15" data-path="system-preferences.html">
+            
+                <a href="system-preferences.html">
+            
+                    
+                    systemPreferences
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.16" data-path="tray.html">
+            
+                <a href="tray.html">
+            
+                    
+                    Tray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.17" data-path="web-contents.html">
+            
+                <a href="web-contents.html">
+            
+                    
+                    webContents
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" >
+            
+                <span>
+            
+                    
+                    Modules for the Renderer Process (Web Page):
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.7.1" data-path="desktop-capturer.html">
+            
+                <a href="desktop-capturer.html">
+            
+                    
+                    desktopCapturer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.2" data-path="ipc-renderer.html">
+            
+                <a href="ipc-renderer.html">
+            
+                    
+                    ipcRenderer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.3" data-path="remote.html">
+            
+                <a href="remote.html">
+            
+                    
+                    remote
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.4" data-path="web-frame.html">
+            
+                <a href="web-frame.html">
+            
+                    
+                    webFrame
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" >
+            
+                <span>
+            
+                    
+                    Modules for Both Processes:
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.8.1" data-path="clipboard.html">
+            
+                <a href="clipboard.html">
+            
+                    
+                    clipboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.2" data-path="crash-reporter.html">
+            
+                <a href="crash-reporter.html">
+            
+                    
+                    crashReporter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.3" data-path="native-image.html">
+            
+                <a href="native-image.html">
+            
+                    
+                    nativeImage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.4" data-path="screen.html">
+            
+                <a href="screen.html">
+            
+                    
+                    screen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.5" data-path="shell.html">
+            
+                <a href="shell.html">
+            
+                    
+                    shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    Development
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../development/coding-style.html">
+            
+                <a href="../development/coding-style.html">
+            
+                    
+                    Coding Style
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../development/clang-format.html">
+            
+                <a href="../development/clang-format.html">
+            
+                    
+                    Using clang-format on C++ Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../development/source-code-directory-structure.html">
+            
+                <a href="../development/source-code-directory-structure.html">
+            
+                    
+                    Source Code Directory Structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../development/atom-shell-vs-node-webkit.html">
+            
+                <a href="../development/atom-shell-vs-node-webkit.html">
+            
+                    
+                    Technical Differences to NW.js (formerly node-webkit)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../development/build-system-overview.html">
+            
+                <a href="../development/build-system-overview.html">
+            
+                    
+                    Build System Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../development/build-instructions-osx.html">
+            
+                <a href="../development/build-instructions-osx.html">
+            
+                    
+                    Build Instructions (macOS)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../development/build-instructions-windows.html">
+            
+                <a href="../development/build-instructions-windows.html">
+            
+                    
+                    Build Instructions (Windows)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../development/build-instructions-linux.html">
+            
+                <a href="../development/build-instructions-linux.html">
+            
+                    
+                    Build Instructions (Linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../development/debugging-instructions-macos.html">
+            
+                <a href="../development/debugging-instructions-macos.html">
+            
+                    
+                    Debug Instructions (macOS)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../development/debug-instructions-windows.html">
+            
+                <a href="../development/debug-instructions-windows.html">
+            
+                    
+                    Debug Instructions (Windows)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../development/setting-up-symbol-server.html">
+            
+                <a href="../development/setting-up-symbol-server.html">
+            
+                    
+                    Setting Up Symbol Server in debugger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.12" data-path="../styleguide.html">
+            
+                <a href="../styleguide.html">
+            
+                    
+                    Documentation Styleguide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >window.open Function</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="windowopen-function"><code>window.open</code> Function</h1>
+<blockquote>
+<p>Open a new window and load a URL.</p>
+</blockquote>
+<p>When <code>window.open</code> is called to create a new window in a web page, a new instance
+of <code>BrowserWindow</code> will be created for the <code>url</code> and a proxy will be returned
+to <code>window.open</code> to let the page have limited control over it.</p>
+<p>The proxy has limited standard functionality implemented to be
+compatible with traditional web pages. For full control of the new window
+you should create a <code>BrowserWindow</code> directly.</p>
+<p>The newly created <code>BrowserWindow</code> will inherit the parent window&apos;s options by
+default. To override inherited options you can set them in the <code>features</code>
+string.</p>
+<h3 id="windowopenurl-framename-features"><code>window.open(url[, frameName][, features])</code></h3>
+<ul>
+<li><code>url</code> String</li>
+<li><code>frameName</code> String (optional)</li>
+<li><code>features</code> String (optional)</li>
+</ul>
+<p>Returns <a href="browser-window-proxy.md"><code>BrowserWindowProxy</code></a> - Creates a new window
+and returns an instance of <code>BrowserWindowProxy</code> class.</p>
+<p>The <code>features</code> string follows the format of standard browser, but each feature
+has to be a field of <code>BrowserWindow</code>&apos;s options.</p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Node integration will always be disabled in the opened <code>window</code> if it is
+disabled on the parent window.</li>
+<li>Non-standard features (that are not handled by Chromium or Electron) given in
+<code>features</code> will be passed to any registered <code>webContent</code>&apos;s <code>new-window</code> event
+handler in the <code>additionalFeatures</code> argument.</li>
+</ul>
+<h3 id="windowopenerpostmessagemessage-targetorigin"><code>window.opener.postMessage(message, targetOrigin)</code></h3>
+<ul>
+<li><code>message</code> String</li>
+<li><code>targetOrigin</code> String</li>
+</ul>
+<p>Sends a message to the parent window with the specified origin or <code>*</code> for no
+origin preference.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="webview-tag.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: <webview> Tag">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"window.open Function","level":"1.5.5.3","depth":3,"next":{"title":"Modules for the Main Process:","level":"1.5.6","depth":2,"ref":"","articles":[{"title":"app","level":"1.5.6.1","depth":3,"path":"api/app.md","ref":"api/app.md","articles":[]},{"title":"autoUpdater","level":"1.5.6.2","depth":3,"path":"api/auto-updater.md","ref":"api/auto-updater.md","articles":[]},{"title":"BrowserWindow","level":"1.5.6.3","depth":3,"path":"api/browser-window.md","ref":"api/browser-window.md","articles":[]},{"title":"contentTracing","level":"1.5.6.4","depth":3,"path":"api/content-tracing.md","ref":"api/content-tracing.md","articles":[]},{"title":"dialog","level":"1.5.6.5","depth":3,"path":"api/dialog.md","ref":"api/dialog.md","articles":[]},{"title":"globalShortcut","level":"1.5.6.6","depth":3,"path":"api/global-shortcut.md","ref":"api/global-shortcut.md","articles":[]},{"title":"ipcMain","level":"1.5.6.7","depth":3,"path":"api/ipc-main.md","ref":"api/ipc-main.md","articles":[]},{"title":"Menu","level":"1.5.6.8","depth":3,"path":"api/menu.md","ref":"api/menu.md","articles":[]},{"title":"MenuItem","level":"1.5.6.9","depth":3,"path":"api/menu-item.md","ref":"api/menu-item.md","articles":[]},{"title":"net","level":"1.5.6.10","depth":3,"path":"api/net.md","ref":"api/net.md","articles":[]},{"title":"powerMonitor","level":"1.5.6.11","depth":3,"path":"api/power-monitor.md","ref":"api/power-monitor.md","articles":[]},{"title":"powerSaveBlocker","level":"1.5.6.12","depth":3,"path":"api/power-save-blocker.md","ref":"api/power-save-blocker.md","articles":[]},{"title":"protocol","level":"1.5.6.13","depth":3,"path":"api/protocol.md","ref":"api/protocol.md","articles":[]},{"title":"session","level":"1.5.6.14","depth":3,"path":"api/session.md","ref":"api/session.md","articles":[]},{"title":"systemPreferences","level":"1.5.6.15","depth":3,"path":"api/system-preferences.md","ref":"api/system-preferences.md","articles":[]},{"title":"Tray","level":"1.5.6.16","depth":3,"path":"api/tray.md","ref":"api/tray.md","articles":[]},{"title":"webContents","level":"1.5.6.17","depth":3,"path":"api/web-contents.md","ref":"api/web-contents.md","articles":[]}]},"previous":{"title":"<webview> Tag","level":"1.5.5.2","depth":3,"path":"api/webview-tag.md","ref":"api/webview-tag.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-plus"],"root":"en-US","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search-plus":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"version":"0.0.0"},"title":"test search plus plugin","gitbook":"*"},"file":{"path":"api/window-open.md","mtime":"2017-01-01T08:26:54.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-01-01T08:59:39.412Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

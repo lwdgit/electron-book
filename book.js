@@ -1,7 +1,6 @@
 var pkg = require('./package.json');
-
 module.exports = {
-    root: './zh-CN',
+    root: (process.argv[4] || 'zh-CN').split('/').slice(1).join(''),
     title: 'test search plus plugin',
     plugins: ['-lunr', '-search','search-plus'],
 
