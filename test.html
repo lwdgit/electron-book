@@ -6,6 +6,7 @@
 </head>
 <body>
     <script>
+        document.write('<a href="./?rd=' + Math.random() + '">random link</a>');
         window.addEventListener('beforeunload', function(e) {
             e.returnValue = 'Are you sure to leave?';
         })
